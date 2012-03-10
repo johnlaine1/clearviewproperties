@@ -1,0 +1,118 @@
+
+/*** Rental Property node type  ***/
+
+.node-type-rental-property  .region-content {
+
+}
+
+.node-type-rental-property
+#page-title {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.node-type-rental-property
+div#block-system-main {
+  border: 1px solid black; 
+  padding: 20px;
+  background-color: #e6edef;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+.node-type-rental-property  
+div.block-webform  {
+  border: 1px solid black; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.25);
+  margin-top: 25px;
+}
+
+/* main photo */
+.node-type-rental-property 
+.field-name-field-rental-photo-main  img{
+ float: left;
+ clear: right;
+ border: 1px solid gray;
+ border-radius: 10px;
+}
+
+.node-type-rental-property 
+.field-name-field-rental-tag-line
+.field-item {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 60px;  
+}
+
+/* Thumnails */
+.node-type-rental-property 
+.field-name-field-rental-photo
+div.field-item  img{
+  float: left;  
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.node-type-rental-property 
+div.field-name-field-rental-photo {
+  clear: both;
+}
+
+/* Clear the floats to drop the 'Description' below the photos */
+.node-type-rental-property
+div.field-name-field-rental-description {
+  clear: left;
+  margin-bottom: 15px;
+}
+
+.node-type-rental-property 
+.field-name-field-rental-features 
+.field-label {
+  border-bottom: 1px black solid;
+}
+
+.node-type-rental-property 
+div.field-name-field-rental-features {
+  padding: 5px;
+  border: 1px black solid;  
+}
+
+.node-type-rental-property 
+.field-name-field-rental-features 
+div.field-item {
+  width: 210px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+/* clearfix */
+.node-type-rental-property 
+div.field-name-field-rental-features:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* end clearfix */
+
+.node-type-rental-property
+div.field-name-field-rental-features {
+  margin-top: 30px;
+}
+/*** END Rental Property node type ***/
+
+
+
+
+
+
+
+
+
+
