@@ -14,9 +14,10 @@
 # Here is the altered version
 # Ignore configuration files that may contain sensitivew information.
 sites/*/settings*.php
-
+sites/*/private
 
 sites/*/files/css
 sites/*/files/js
 sites/*/files/xmlsitemap
-sites/*/files/private
+
+
