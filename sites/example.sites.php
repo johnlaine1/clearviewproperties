@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Configuration file for Drupal's multi-site directory aliasing feature.
+ * Configuration file for Drupal's multi-site directory aliasing feature..
  *
  * Drupal searches for an appropriate configuration directory based on the
  * website's hostname and pathname. A detailed description of the rules for
